@@ -1,0 +1,67 @@
+[Prediction Output Dir: ] ./test//cb513ssp/
+[program started on Thu Aug  4 10:15:05 2011]
+[command line arguments]
+a1sz	15
+umodel	../backGoodModels/models4shareOnline/cb513ssp.model.asc
+outdir	./test/
+psi	2
+niw	13
+labelf	./test/fasta/input.cb513ssp.lab.faa
+psiExistFlag	1
+task	cb513ssp
+testf	./test/fasta/input.cb513ssp.seq.faa
+[----------------------]
+[ Reading from old good model ] ../backGoodModels/models4shareOnline/cb513ssp.model.asc
+[ok]
+[ Hash Dict ]: ./hash/;
+./hash/aa1.lst
+[loaded aa1 : 27 words]
+[ Extracted Num sequences:  ] 3
+[ Output Dir: ] ./test//cb513ssp/ ;
+[ PSIBLAST output Dir: ]  ./test//cb513ssp//psifile-NRF/  ;
+[ Input mtx file Num. lines: ]87 data lines.
+[ Input mtx file Num. lines: ]108 data lines.
+[ Input mtx file Num. lines: ]349 data lines.
+[Num of Processed Sequences: ]3
+# Reading ./test//cb513ssp//aa1.dat
+[ Number of sequences:]  	3
+# Reading ./test//cb513ssp//psi1.dat.NRF
+# Reading ./test//cb513ssp//psi2.dat.NRF
+# Reading ./test//cb513ssp//psi3.dat.NRF
+# Reading ./test//cb513ssp//psi4.dat.NRF
+# Reading ./test//cb513ssp//psi5.dat.NRF
+# Reading ./test//cb513ssp//psi6.dat.NRF
+# Reading ./test//cb513ssp//psi7.dat.NRF
+# Reading ./test//cb513ssp//psi8.dat.NRF
+# Reading ./test//cb513ssp//psi9.dat.NRF
+# Reading ./test//cb513ssp//psi10.dat.NRF
+# Reading ./test//cb513ssp//psi11.dat.NRF
+# Reading ./test//cb513ssp//psi12.dat.NRF
+# Reading ./test//cb513ssp//psi13.dat.NRF
+# Reading ./test//cb513ssp//psi14.dat.NRF
+# Reading ./test//cb513ssp//psi15.dat.NRF
+# Reading ./test//cb513ssp//psi16.dat.NRF
+# Reading ./test//cb513ssp//psi17.dat.NRF
+# Reading ./test//cb513ssp//psi18.dat.NRF
+# Reading ./test//cb513ssp//psi19.dat.NRF
+# Reading ./test//cb513ssp//psi20.dat.NRF
+[ Number of sequences:]  	3
+Number of windows extracted: 544
+[ Creating Testing set - Num. of AAs ] 544
+[creating sentence dataset]
+[original data size: 544]
+[3 sentences found]
+[ Creating testing set viterbi version - Num of examples: ] 3
+[we have to test 544 windows]
+[we did test on 544 windows]
+[loading tag hash for task : ]cb513ssp ; 
+[Task tag hash loaded]
+[number of available AA predictions: ] 544
+[number of predicted protein sequences: ] 3
+[we save prediction for 544 windows]
+[evaluating accuracy score] 
+[test prediction file ] ./test//cb513ssp//test-predict
+[test label file ] ./test/fasta/input.cb513ssp.lab.faa
+[AA level error rate] : 0.37132352941176
+[AA total Num] : 544
+[Protein total Num] : 3

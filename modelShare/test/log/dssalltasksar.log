@@ -1,0 +1,65 @@
+[Prediction Output Dir: ] ./test//dssalltasksar/
+[program started on Thu Aug  4 11:46:59 2011]
+[command line arguments]
+a1sz	15
+umodel	../backGoodModels/models4shareOnline/dssalltasksar.model.asc
+outdir	./test/
+psi	2
+niw	13
+labelf	./test/fasta/input.sar.lab.faa
+psiExistFlag	1
+task	dssalltasksar
+testf	./test/fasta/input.dssp4task.seq.faa
+[----------------------]
+[ Reading from old good model ] ../backGoodModels/models4shareOnline/dssalltasksar.model.asc
+[ok]
+[ Hash Dict ]: ./hash/;
+./hash/aa1.lst
+[loaded aa1 : 27 words]
+[ Extracted Num sequences:  ] 1
+[ Output Dir: ] ./test//dssalltasksar/ ;
+[ PSIBLAST output Dir: ]  ./test/psifile//NRF/  ;
+[ Input mtx file Num. lines: ]193 data lines.
+[Num of Processed Sequences: ]1
+# Reading ./test//dssalltasksar//aa1.dat
+[ Number of sequences:]  	1
+# Reading ./test//dssalltasksar//psi1.dat.NRF
+# Reading ./test//dssalltasksar//psi2.dat.NRF
+# Reading ./test//dssalltasksar//psi3.dat.NRF
+# Reading ./test//dssalltasksar//psi4.dat.NRF
+# Reading ./test//dssalltasksar//psi5.dat.NRF
+# Reading ./test//dssalltasksar//psi6.dat.NRF
+# Reading ./test//dssalltasksar//psi7.dat.NRF
+# Reading ./test//dssalltasksar//psi8.dat.NRF
+# Reading ./test//dssalltasksar//psi9.dat.NRF
+# Reading ./test//dssalltasksar//psi10.dat.NRF
+# Reading ./test//dssalltasksar//psi11.dat.NRF
+# Reading ./test//dssalltasksar//psi12.dat.NRF
+# Reading ./test//dssalltasksar//psi13.dat.NRF
+# Reading ./test//dssalltasksar//psi14.dat.NRF
+# Reading ./test//dssalltasksar//psi15.dat.NRF
+# Reading ./test//dssalltasksar//psi16.dat.NRF
+# Reading ./test//dssalltasksar//psi17.dat.NRF
+# Reading ./test//dssalltasksar//psi18.dat.NRF
+# Reading ./test//dssalltasksar//psi19.dat.NRF
+# Reading ./test//dssalltasksar//psi20.dat.NRF
+[ Number of sequences:]  	1
+Number of windows extracted: 193
+[ Creating Testing set - Num. of AAs ] 193
+[creating sentence dataset]
+[original data size: 193]
+[1 sentences found]
+[ Creating testing set viterbi version - Num of examples: ] 1
+[we have to test 193 windows]
+[we did test on 193 windows]
+[loading tag hash for task : ]dssalltasksar ; 
+[Task tag hash loaded]
+[number of available AA predictions: ] 193
+[number of predicted protein sequences: ] 1
+[we save prediction for 193 windows]
+[evaluating accuracy score] 
+[test prediction file ] ./test//dssalltasksar//test-predict
+[test label file ] ./test/fasta/input.sar.lab.faa
+[AA level error rate] : 0.21761658031087
+[AA total Num] : 193
+[Protein total Num] : 1

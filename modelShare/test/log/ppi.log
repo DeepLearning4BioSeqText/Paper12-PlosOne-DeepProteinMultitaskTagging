@@ -1,0 +1,61 @@
+[Prediction Output Dir: ] ./test//ppi/
+[program started on Fri Aug  5 08:06:00 2011]
+[command line arguments]
+a1sz	0
+umodel	/home/mlshack/yanjun/MultSeq/backGoodModels/models4shareOnline/TPPI-nonVit/tppi.psionly.model.asc.noviterbi
+outdir	./test/
+psi	2
+niw	13
+labelf	./test/fasta/input.tppi.lab.faa
+psiExistFlag	1
+task	ppi
+testf	./test/fasta/input.tppi.seq.faa
+[----------------------]
+[ Reading from old good model ] /home/mlshack/yanjun/MultSeq/backGoodModels/models4shareOnline/TPPI-nonVit/tppi.psionly.model.asc.noviterbi
+[ok]
+[ Hash Dict ]: ./hash/;
+./hash/aa1.lst
+[loaded aa1 : 27 words]
+[ Extracted Num sequences:  ] 2
+[ Output Dir: ] ./test//ppi/ ;
+[ PSIBLAST output Dir: ]  ./test/psifile//NRF/  ;
+[ Input mtx file Num. lines: ]70 data lines.
+[ Input mtx file Num. lines: ]67 data lines.
+[Num of Processed Sequences: ]2
+# Reading ./test//ppi//psi1.dat.NRF
+# Reading ./test//ppi//psi2.dat.NRF
+# Reading ./test//ppi//psi3.dat.NRF
+# Reading ./test//ppi//psi4.dat.NRF
+# Reading ./test//ppi//psi5.dat.NRF
+# Reading ./test//ppi//psi6.dat.NRF
+# Reading ./test//ppi//psi7.dat.NRF
+# Reading ./test//ppi//psi8.dat.NRF
+# Reading ./test//ppi//psi9.dat.NRF
+# Reading ./test//ppi//psi10.dat.NRF
+# Reading ./test//ppi//psi11.dat.NRF
+# Reading ./test//ppi//psi12.dat.NRF
+# Reading ./test//ppi//psi13.dat.NRF
+# Reading ./test//ppi//psi14.dat.NRF
+# Reading ./test//ppi//psi15.dat.NRF
+# Reading ./test//ppi//psi16.dat.NRF
+# Reading ./test//ppi//psi17.dat.NRF
+# Reading ./test//ppi//psi18.dat.NRF
+# Reading ./test//ppi//psi19.dat.NRF
+# Reading ./test//ppi//psi20.dat.NRF
+[ Number of sequences:]  	2
+Number of windows extracted: 137
+[ Creating Testing set - Num. of AAs ] 137
+[testing over 137 examples]
+[done]
+[loading tag hash for task : ]ppi ; 
+[Task tag hash loaded]
+[number of available AA predictions: ] 137
+70
+[we save prediction for 137 windows]
+[we save predicted protein sequences: ] 2
+[evaluating accuracy score] 
+[test prediction file ] ./test//ppi//test-predict
+[test label file ] ./test/fasta/input.tppi.lab.faa
+[AA level error rate] : 0.080291970802914
+[AA total Num] : 137
+[Protein total Num] : 2

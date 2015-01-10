@@ -1,0 +1,65 @@
+[Prediction Output Dir: ] ./test//dssalltaskssp/
+[program started on Thu Aug  4 11:35:08 2011]
+[command line arguments]
+a1sz	15
+umodel	../backGoodModels/models4shareOnline/dssalltaskssp.model.asc
+outdir	./test/
+psi	2
+niw	13
+labelf	./test/fasta/input.ssp.lab.faa
+psiExistFlag	1
+task	dssalltaskssp
+testf	./test/fasta/input.dssp4task.seq.faa
+[----------------------]
+[ Reading from old good model ] ../backGoodModels/models4shareOnline/dssalltaskssp.model.asc
+[ok]
+[ Hash Dict ]: ./hash/;
+./hash/aa1.lst
+[loaded aa1 : 27 words]
+[ Extracted Num sequences:  ] 1
+[ Output Dir: ] ./test//dssalltaskssp/ ;
+[ PSIBLAST output Dir: ]  ./test/psifile//NRF/  ;
+[ Input mtx file Num. lines: ]193 data lines.
+[Num of Processed Sequences: ]1
+# Reading ./test//dssalltaskssp//aa1.dat
+[ Number of sequences:]  	1
+# Reading ./test//dssalltaskssp//psi1.dat.NRF
+# Reading ./test//dssalltaskssp//psi2.dat.NRF
+# Reading ./test//dssalltaskssp//psi3.dat.NRF
+# Reading ./test//dssalltaskssp//psi4.dat.NRF
+# Reading ./test//dssalltaskssp//psi5.dat.NRF
+# Reading ./test//dssalltaskssp//psi6.dat.NRF
+# Reading ./test//dssalltaskssp//psi7.dat.NRF
+# Reading ./test//dssalltaskssp//psi8.dat.NRF
+# Reading ./test//dssalltaskssp//psi9.dat.NRF
+# Reading ./test//dssalltaskssp//psi10.dat.NRF
+# Reading ./test//dssalltaskssp//psi11.dat.NRF
+# Reading ./test//dssalltaskssp//psi12.dat.NRF
+# Reading ./test//dssalltaskssp//psi13.dat.NRF
+# Reading ./test//dssalltaskssp//psi14.dat.NRF
+# Reading ./test//dssalltaskssp//psi15.dat.NRF
+# Reading ./test//dssalltaskssp//psi16.dat.NRF
+# Reading ./test//dssalltaskssp//psi17.dat.NRF
+# Reading ./test//dssalltaskssp//psi18.dat.NRF
+# Reading ./test//dssalltaskssp//psi19.dat.NRF
+# Reading ./test//dssalltaskssp//psi20.dat.NRF
+[ Number of sequences:]  	1
+Number of windows extracted: 193
+[ Creating Testing set - Num. of AAs ] 193
+[creating sentence dataset]
+[original data size: 193]
+[1 sentences found]
+[ Creating testing set viterbi version - Num of examples: ] 1
+[we have to test 193 windows]
+[we did test on 193 windows]
+[loading tag hash for task : ]dssalltaskssp ; 
+[Task tag hash loaded]
+[number of available AA predictions: ] 193
+[number of predicted protein sequences: ] 1
+[we save prediction for 193 windows]
+[evaluating accuracy score] 
+[test prediction file ] ./test//dssalltaskssp//test-predict
+[test label file ] ./test/fasta/input.ssp.lab.faa
+[AA level error rate] : 0.15025906735751
+[AA total Num] : 193
+[Protein total Num] : 1
