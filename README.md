@@ -28,6 +28,11 @@ Summary: Deep neural network architecture + Protein Sequence Labeling
 <BR>
 
 
+Paper URL:  http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0032235 
+
+<BR>
+
+
 (SupplementWeb), all trained deep models have been shared @ 
 http://noble.gs.washington.edu/proj/multitask/models/
 
