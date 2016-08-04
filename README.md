@@ -3,7 +3,7 @@
 Y. Qi, M. Osh, J. Weston, W. Noble (2012) 
 A unified multitask architecture for predicting local protein properties, PLoS ONE (March 2012) (URL), 
 
-<BR>
+
 
 Summary: Deep neural network architecture + Protein Sequence Labeling
 
